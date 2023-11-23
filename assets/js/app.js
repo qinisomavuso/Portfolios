@@ -1,35 +1,10 @@
-new WOW().init();
+// scroll to top functionality
+const scrollUp = document.querySelector("#scroll-up");
 
-  function openMenu(){
-	  $('.menu').css('display','block');
-	  $('.page-container').addClass('show-menu');
-	  setTimeout(function(){
-      $('.menu').css('z-index','0');
-    },400);
-  }
-	
-	//CLOSE 
-	function closeMenu(){
-	  $('.menu').css('z-index','-1');
-	  $('.page-container').removeClass('show-menu');
-    setTimeout(function(){
-      $('.menu').css('display','none');
-    },400);
-  }
-
-$(function(){
-  $('.navicon').on('click',function(){
-    if( $('.page-container').hasClass('show-menu') ){
-      closeMenu();
-    }else{
-      openMenu();
-    }
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
   });
-  $(window).on('scroll',function(){
-    if($(window).scrollTop()>210){
-      $('.navicon').addClass('blue');
-    }else{
-      $('.navicon').removeClass('blue')
-    }
-  });   
 });
