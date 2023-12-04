@@ -32,12 +32,12 @@
   <body>
     <!-- Navbar -->
     <nav>
-        <h1>Qiniso Mavuso</h1>
+        <ul><li><a href="index.html" class="nav-link">Qiniso Mavuso</a></li></ul>
         <ul class="navigation">
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
           <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -52,203 +52,42 @@
           class="hero-img"
         />
         <div class="bio animate__animated animate__shakeX">
-          <h2 class="bio-title">About Me</h2>
+          <h2 class="bio-title">I  am a Web Developer</h2>
           <p class="bio-text">
-            I am an inspiring web developer, I'm holding a computer science degree, in  the meantime 
-            doing Mathematical science(Honours degree), and I'm planning to begin with my masters degree
-            next year while working as a web developer.
+            
+              Hey there, welcome  to my portfolio.
+           
           </p>
         </div>
   </section>
-    <!-- More about -->
-    <section class="more-about">
-        <h2>More About Me</h2>
-        <p>
-            I was introduced to computer science and i hated but as time goes by I began
-            to feel in love with coding and now I am working as a developer and I want to inspire young
-            people that it is possible to do coding and with mathematics.
-        </p>
-        <p>
-          I want to combine my coding skills with mathematics to slove real  world problems.
-        </p>
-        <p>
-          I see myself a big researcher in mathematics department while working in a computer science field.
-        </p>
-      </section>
-    <!-- Skills section -->
-    <section class="skills" id="skills">
-        <h2 class="skill-header">My Top Skills</h2>
-  
-        <div class="skills-wrapper">
-          <div class="first-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/icons8-html.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/icons8-css3.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/icons8-javascript.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-          </div>
-  
-          <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/icons8-java.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/icons8-python.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/icons8-mysql.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-          </div>
-        </div>
-      </section>
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-        <h2 class="projects-title">Some of my Recent Projects</h2>
-        <div class="projects-container">
-          <div class="project-container project-card">
-            <img
-              src="assets/images/expenseTracker.png"
-              alt="expense-tracker"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Honours project</h3>
-            <p class="project-details">
-                Existance of paths of minimal length.
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-          </div>
-          <div class="project-container project-card">
-            <img
-              src="assets/img/mypojectpicture.JPG"
-              alt="netflic-clone"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Netflix Clone</h3>
-            <p class="project-details">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ratione vel inventore labore commodi modi quos culpa aut saepe!
-              Alias!
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-          </div>
-          <div class="project-container project-card">
-            <img
-              src="assets/images/greenyEarth.png"
-              alt="greeny-earth"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Greeny Earth</h3>
-            <p class="project-details">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ratione vel inventore labore commodi modi quos culpa aut saepe!
-              Alias!
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-          </div>
-        </div>
-      </section>
-    <!-- Contact section -->
-    <section class="contact" id="contact">
-        <h2>Get In Touch With Me</h2>
-        <div class="contact-form-container">
-          <div class="contact-form">
-            <form action="https://formspree.io/f/xyylngw" method="POST">
-              <div class="form-control">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="sender-name"
-                  placeholder="Enter Your Name"
-                  class="input-field"
-                  required
-                />
-              </div>
-              <div class="form-control">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="sender-email"
-                  placeholder="Enter Your Email"
-                  class="input-field"
-                  required
-                />
-              </div>
-              <div class="form-control">
-                <label for="message">Message</label>
-                <textarea
-                  id="message"
-                  cols="60"
-                  rows="10"
-                  placeholder="Enter Your Message"
-                  name="message"
-                  class="input-field"
-                  required
-                ></textarea>
-              </div>
-              <input
-                type="submit"
-                value="Submit"
-                id="submit-btn"
-                class="submit-btn"
-              />
-            </form>
-          </div>
-        </div>
-      </section>
+
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-        <a href="#" target="_blank"
-          ><img
-            src="assets/icons/icons8-twitter.gif"
-            alt="Twitter"
-            loading="lazy"
-            class="socicon"
-        /></a>
-        <a href="#" target="_blank"
-          ><img
-            src="assets/icons/icons8-instagram.gif"
-            alt="Instagram"
-            loading="lazy"
-            class="socicon"
-        /></a>
-        <a href="#" target="_blank"
-          ><img
-            src="assets/icons/icons8-linkedin.gif"
-            alt="Linkedin"
-            loading="lazy"
-            class="socicon"
-        /></a>
-        <a href="#" target="_blank"
-          ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
-        /></a>
-  
+      <a href="https://www.twitter.com/maxie_mavuso/" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/qinisomavus0/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/qiniso-mavuso-38bbb1b8/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/qinisomavuso" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+
     <!-- Scroll to top -->
     <i class="scroll-up" id="scroll-up"
     ><img

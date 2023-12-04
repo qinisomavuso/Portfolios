@@ -272,7 +272,7 @@ nav ul li {
 footer {
   background-color: var(--bg-color);
   padding: 1.25rem;
-  text-align: center;
+  text-align: left;
   margin: 0.5rem 1 0;
 }
 .scroll-up {
